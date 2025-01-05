@@ -17,7 +17,7 @@ function ItemMenu({
     onClick
 }: ItemMenuProps) {
     const defaultClassName =
-        'text-center text-opacity-40 px-3 py-1 text-sm rounded-full text-white hover:text-opacity-100 transition-all duration-300';
+        'text-center text-opacity-40 text-5xl px-3 py-1 font-bold text-sm rounded-full text-white hover:text-opacity-100 transition-all duration-300';
     const newClassName = twMerge(
         clsx(defaultClassName, {
             'bg-secondary-green text-opacity-100 ': active
