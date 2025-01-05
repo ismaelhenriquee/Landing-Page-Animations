@@ -2,7 +2,7 @@ import { iconSearch, iconUser, logo } from '@/assets';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Container } from './Container';
-import { NavBar } from './NavBar';
+import { NavBar } from './Navbar';
 
 function Header() {
     return (

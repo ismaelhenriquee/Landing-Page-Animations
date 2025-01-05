@@ -11,12 +11,25 @@ const config: Config = {
                 md: 'calc(var(--radius) - 2px)',
                 sm: 'calc(var(--radius) - 4px)'
             },
+            backgroundImage: {
+                "background-hero": "url('../assets/bg-hero.svg')",
+            },
             maxWidth: {
                 grid: '77.5rem'
+            },
+            height: {
+                'section-hero': '41rem'
+            },
+            textColor: {
+                'primary-green': '#1D3531',
+                'secondary-green': '#5D8A83',
+                'green-border': '#2A4B46',
+                'primary-yellow': '#CCEC60'
             },
             colors: {
                 'primary-green': '#1D3531',
                 'secondary-green': '#5D8A83',
+                'green-border': '#2A4B46',
                 'primary-yellow': '#CCEC60',
                 background: 'hsl(var(--background))',
                 foreground: 'hsl(var(--foreground))',
