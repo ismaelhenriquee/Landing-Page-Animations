@@ -11,7 +11,13 @@ const config: Config = {
                 md: 'calc(var(--radius) - 2px)',
                 sm: 'calc(var(--radius) - 4px)'
             },
+            maxWidth: {
+                grid: '77.5rem'
+            },
             colors: {
+                'primary-green': '#1D3531',
+                'secondary-green': '#5D8A83',
+                'primary-yellow': '#CCEC60',
                 background: 'hsl(var(--background))',
                 foreground: 'hsl(var(--foreground))',
                 card: {
