@@ -9,6 +9,7 @@ import image02 from './image-02.png';
 import image03 from './image-03.png';
 import image04 from './image-04.png';
 import image05 from './image-05.png';
+import image06 from './image-06.png';
 import logo from './logo.svg';
 import mockup from './mockup.svg';
 import mockupMain from './mockup-main.png';
@@ -25,6 +26,7 @@ export {
     image03,
     image04,
     image05,
+    image06,
     logo,
     mockup,
     mockupMain,
